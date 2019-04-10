@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "376188566956",
+    "firebase_url": "https://feedbacksignout.firebaseio.com",
+    "project_id": "feedbacksignout",
+    "storage_bucket": "feedbacksignout.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376188566956:android:e02a5ad0a0fa0741",
+        "android_client_info": {
+          "package_name": "com.edu.kiet.feedbacksignout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376188566956-31n49c7qnc2ookfm2mgk95vl7d305lue.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edu.kiet.feedbacksignout",
+            "certificate_hash": "1a691eaa6c50dfc0bc27267be240d059b8f11838"
+          }
+        },
+        {
+          "client_id": "376188566956-ij4k9ovobut697m1t2vdbfk373upirf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArPqnoHkbQh6bDtAB5BUxFzQInjksLfm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376188566956-ij4k9ovobut697m1t2vdbfk373upirf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
