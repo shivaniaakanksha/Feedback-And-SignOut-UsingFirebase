@@ -10,6 +10,9 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
+
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,8 +42,10 @@ public class MainActivity extends AppCompatActivity {
                  }
 
                  if(position==4){
-                     Intent signout=new Intent(view.getContext(), signOut.class);
-                     startActivityForResult(signout,0);
+                     FirebaseAuth.getInstance().signOut();
+                     Toast.makeText(MainActivity.this,"Signed Out successfully",Toast.LENGTH_SHORT).show();
+//                     finish();
+//                     startActivity(new Intent(this,MainActivity.class));
 
                  }
 
